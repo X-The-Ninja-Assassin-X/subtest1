@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/simple"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Click for a simple estimate of crash time"/>
+    <Button
+        android:id="@+id/detailed"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="click to enter inforamtion for a more accurate estimate of crash time"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/number"/>
+
+</LinearLayout>
